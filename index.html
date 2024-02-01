@@ -1,46 +1,42 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
   <head>
-    <meta charset="UTF-8">
-    <title>HTML Bio</title>
-    <!--Link to style sheet-->
-    <!--The rel attribute specifies relationship between linked documents-->
-    <!--The href attribute creates a link to another file or webpage-->
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <meta charset="UTF-8" />
+    <title>Student Bio With Attributes</title>
+    <!-- Link to stylesheet using rel and href attributes -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
 
   <body>
-    <div class="container">
-      <header>
-        <h1>HTML Attributes</h1>
-      </header>
-
-      <section class="lesson">
-        <h2>Image and Link Attributes</h2>
-        <h4>are used to configure or adjust behavior of specific elements</h4>
-        <!-- The src attribute is used with <img> to specify an absolute or relative path to an image -->
-        <!-- The alt attribute specifies the alternative text for an image -->
-        <img src="https://via.placeholder.com/200" alt="placeholder image"/>
-        <br>
-        <img src="./assets/images/sample.jpg" alt="placeholder image"/>
-        <br>
-        <!-- The href attribute is used with <a> to specify a URL-->
-        <a href="https://www.google.com">This is a link to Google.com</a>
-      </section>
-
-      <!-- A class is used to identify one or more elements-->
-      <section class="lesson">
-        <h2>Global Attributes</h2>
-        <h3>can be used on any element and are often used to identify element for styling</h3>
-        <!--An id is an unique identifier to identify a single element-->
-        <p id="paragraph-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-        <p id="paragraph-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-        <p id="paragraph-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-        <br>
-      </section>
-
-    </div>
+    <header>
+      <h1 class="title">Student Bio</h1>
+    </header>
+    <!-- TODO: add class attribute  -->
+    <section class="lesson">
+      <h2 class="lesson">Adam Reed</h2>
+      <!-- TODO: modify img attributes -->
+      <img src="https://imagedelivery.net/9sCnq8t6WEGNay0RAQNdvQ/clcn6r5x10bkhp6qptjvw4q21_1/public" alt="placeholder image" />
+      <p id= "paragraph-1"> My name is Adam I am 32 years young and currently live in Sacramento, California. It is nice to meet everyone here in the bootcamp!
+        This is my first introduction towards learning html. I have zero previous expierence but, I am eager to learn and excited to go on this journey with you all! 
+        Aside from coding some of my hobbies inclue playing video games, right now I happen to be playing Palworld and Diablo 4. 
+        Another hobby of mine is martial arts, I have trained Jiu-Jitsu for 4 years and am currently a one stripe blue belt.</p>
+    </section>
+    <!-- TODO: add class attribute -->
+    <section class="lesson">
+      <h2 class="title">Contact Info</h2>
+      <ul>
+        <!-- TODO: add id attribute -->
+        <li id="email">
+        <strong>email:</strong><a href="#">adam.reed1991@gmail.com</a>
+    </li>
+        <!-- TODO: add id attribute -->
+        <li id="github"><strong>github:</strong> <a href="#">github.com/Simplyareed</a></li>
+        <!-- TODO: add id attribute -->
+        <li id="portfolio">
+        <strong>portfolio:</strong> <a href="#">Coming Soon</a>
+    </li>
+      </ul>
+    </section>
   </body>
-
 </html>
+
